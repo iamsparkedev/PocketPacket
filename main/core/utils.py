@@ -9,6 +9,14 @@ def format_response(resp_text):
         return json.dumps(parsed, indent=2)
     except Exception:
         return resp_text
+
+def format_headers(headers_dict):
+    """
+    Format headers dict for display.
+    """
+    if not headers_dict:
+        return ""
+    return '\n'.join([f"{k}: {v}" for k, v in headers_dict.items()])
 # utils.py
 # Utility functions for PocketPacket
 
