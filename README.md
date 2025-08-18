@@ -4,5 +4,6 @@
 made in python 
 Postman clone .....
 Kinda .....
-mo nsis build for now
+no `nsis` build for now
+
 
