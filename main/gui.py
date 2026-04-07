@@ -19,7 +19,7 @@ class PocketPacketApp(ctk.CTk):
         self.geometry("800x800")
         self.resizable(False, False)
 
-        # --- Sidebar for navigation ---
+
         self.sidebar = ctk.CTkFrame(self, width=150)
         self.sidebar.pack(side="left", fill="y")
 
